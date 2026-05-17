@@ -1,6 +1,6 @@
-# 🚀 Smart BI – Business Intelligence avec Claude AI
+# 🚀 Smart BI – Business Intelligence avec Groq AI
 
-Application Streamlit professionnelle d'analyse de données alimentée par **Claude API (Anthropic)**.
+Application Streamlit professionnelle d'analyse de données alimentée par **Groq API**.
 
 ## Fonctionnalités
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ```bash
 cp .env.example .env
-# Éditez .env et renseignez ANTHROPIC_API_KEY et DATABASE_URL
+# Éditez .env et renseignez GROQ_API_KEY et DATABASE_URL
 ```
 
 ### 3. Démarrer PostgreSQL
@@ -66,15 +66,15 @@ smart_bi/
 │   └── loader.py           # Chargement CSV → PostgreSQL
 ├── llm/
 │   ├── __init__.py
-│   └── claude_client.py    # Client Anthropic Claude API
+│   └── groq_client.py    # Client Anthropic groq API
 └── utils/
     ├── __init__.py
     └── charts.py           # Graphiques Plotly stylisés
 ```
 
-## Obtenir une clé API Claude
+## Obtenir une clé API Groq
 
-1. Créez un compte sur [console.anthropic.com](https://console.anthropic.com)
+1. Créez un compte sur [console.groq.com](https://console.groq.com)
 2. Allez dans **API Keys** → **Create Key**
 3. Copiez la clé dans votre `.env`
 
@@ -82,5 +82,5 @@ smart_bi/
 
 | Variable | Description | Défaut |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Clé API Anthropic **(obligatoire)** | — |
+| `GROQ_API_KEY` | Clé API Groq **(obligatoire)** | — |
 | `DATABASE_URL` | URL PostgreSQL | `postgresql://postgres:postgres@localhost:5432/smartbi` |
