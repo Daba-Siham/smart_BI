@@ -7,7 +7,7 @@ Application Streamlit professionnelle d'analyse de données alimentée par **Gro
 | Fonctionnalité | Description |
 |---|---|
 | 📂 Import CSV | Glissez vos fichiers → chargés automatiquement en PostgreSQL |
-| 🗃️ Explication de table | Claude explique la structure et le contenu de vos données |
+| 🗃️ Explication de table | LLM explique la structure et le contenu de vos données |
 | 📊 Graphiques interactifs | Lignes, histogrammes, corrélations (Plotly) |
 | 💡 Explication des graphes | Chaque graphique est accompagné d'une analyse IA |
 | 🧠 Analyse complète | Rapport IA complet sur vos données |
